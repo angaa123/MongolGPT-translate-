@@ -6,4 +6,4 @@ while user_text != "out":
     gptInput =  translate.translate_mongolian_to_english(user_text)
     gptOut = gpt.gpt_model(gptInput)
     mongolGptOut =  translate.translate_english_to_mongolian(gptOut)
-    print(mongolGptOut)
+    print("mongolGPT:"mongolGptOut)

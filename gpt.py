@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "openAI_API_KEY"
 messages = []
 def gpt_model (userPromt):
     prompt = userPromt
